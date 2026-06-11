@@ -65,7 +65,15 @@ def symbol(user_age):
 
 
 # Вывод красивого результата
-print(f'Расчет для пользователья {user_name} ({user_age} {symbol(user_age)})!')
-print(f'Твой Индекс Массы Тела: {bmi(user_weight, user_height)}')
-print(f'Рекомендуемая норма воды: {water_normal(user_weight)} л. в день')
+print(
+    f'Расчет для пользователья {user_name} '
+    f'({user_age} '
+    f'{symbol(user_age)})!'
+       )
+print(f'Твой Индекс Массы Тела: '
+      f'{bmi(user_weight, user_height)}'
+      )
+print(f'Рекомендуемая норма воды: '
+      f'{water_normal(user_weight)} л. в день'
+      )
 print("Расчет окончен. Будьте здоровы!")
