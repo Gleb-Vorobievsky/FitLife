@@ -68,12 +68,12 @@ def symbol(user_age):
 print(
     f'Расчет для пользователья {user_name} '
     f'({user_age} '
-    f'{symbol(user_age)})!'
+    f'{symbol(user_age)})! '
        )
 print(f'Твой Индекс Массы Тела: '
-      f'{bmi(user_weight, user_height)}'
+      f'{bmi(user_weight, user_height)} '
       )
 print(f'Рекомендуемая норма воды: '
-      f'{water_normal(user_weight)} л. в день'
+      f'{water_normal(user_weight)} л. в день '
       )
 print("Расчет окончен. Будьте здоровы!")
