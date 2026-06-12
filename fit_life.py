@@ -20,8 +20,7 @@ def input_user_weight():
     """Функция для корректного ввода веса пользователя"""
     while True:
         try:
-            user_weight = float(input('Напиши свой вес в кг (например: 64):'))
-            return user_weight
+            return float(input('Напиши свой вес в кг (например: 64):'))
         except ValueError:
             print("Напиши свой вес числом с плавающей точкой, либо без нее")
 
@@ -30,8 +29,7 @@ def input_user_height():
     """Функция для корректного ввода роста пользователя"""
     while True:
         try:
-            user_height = float(input('Напиши свой рост в м (например: 1.7):'))
-            return user_height
+            return float(input('Напиши свой рост в м (например: 1.7):'))
         except ValueError:
             print("Напиши свой рост числом с плавающей точкой, либо без нее")
 
